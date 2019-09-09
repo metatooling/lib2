@@ -1,9 +1,10 @@
 [tool.poetry]
-name = "lib2"
+name = "e5fda7ba-d2a1-11e9-96d1-7c5cf84ffe8e"
 version = "0.1.0" # PACKAGE_VERSION  (This comment helps bumpversion find the right line.)
 description = ""
 authors = ["Full Name <email@example.com>"]
 readme = "README.rst"
+packages = [{include="lib2", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.7"
