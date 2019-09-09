@@ -1,6 +1,6 @@
-import lib1
+import lib1.app
 
 
 def two():
     """Returns two."""
-    return lib1.one() + 1
+    return lib1.app.one() + 1
