@@ -9,6 +9,7 @@ readme = "README.rst"
 python = "^3.7"
 click = "7.0"
 attrs = "19.1.0"
+01d61084-d29e-11e9-96d1-7c5cf84ffe8e = "^0.1.0"
 
 
 [tool.poetry.dev-dependencies]
@@ -44,12 +45,6 @@ docs = [
 
 [tool.poetry.scripts]
 lib2 = "lib2.cli:cli"
-
-
-[build-system]
-requires = ["poetry>=0.12"]
-build-backend = "poetry.masonry.api"
-
 
 
 [tool.towncrier]
@@ -99,3 +94,6 @@ exclude = '''
   | dist
 )/
 '''
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

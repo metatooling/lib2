@@ -18,6 +18,7 @@ import click
 
 from lib2 import app
 
+
 @click.command()
 def cli(**kwargs):
     app.main(**kwargs)
