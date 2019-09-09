@@ -1,6 +1,7 @@
+import typing as t
+
 import lib1.app
 
 
-def two():
-    """Returns two."""
-    return lib1.app.one() + 1
+def add_args(args: t.List[int]) -> int:
+    return lib1.app.add(*args)

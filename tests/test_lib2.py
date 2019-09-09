@@ -2,8 +2,8 @@ import lib2.app
 
 
 def test_two():
-    assert lib2.app.two() == 2
+    assert lib2.app.add_args([1, 2]) == 3
 
 
 def test_three():
-    assert lib2.app.two() + 1 == 3
+    assert lib2.app.add_args([1, 2, 3]) == 6
